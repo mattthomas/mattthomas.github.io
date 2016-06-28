@@ -1,9 +1,9 @@
 # Site settings
 title: Air
-email: mattborn@users.noreply.github.com
+email: matt_thomas@fastmail.fm
 description: "An ultra-minimalist Jekyll theme inspired by Information Architects."
 baseurl: "/air"
-url: "http://mattborn.com"
+url: "http://mattthomas.info"
 
 # Build settings
 markdown: kramdown
