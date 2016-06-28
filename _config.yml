@@ -1,0 +1,10 @@
+# Site settings
+title: Air
+email: mattborn@users.noreply.github.com
+description: "An ultra-minimalist Jekyll theme inspired by Information Architects."
+baseurl: "/air"
+url: "http://mattborn.com"
+
+# Build settings
+markdown: kramdown
+permalink: :title
