@@ -1,15 +1,26 @@
----
-layout: default
----
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header>
-    <h1 itemprop="name">{{ page.title }}</h1>
-    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  </head>
+  <body>
+    <header role="banner">
+      <h1 class="site-title">{{ site.title }}</h1>
+    </header>
     {{ content }}
-  </div>
-
-</article>
+    <footer role="contentinfo">
+      <p>This is the footer with a summary and navigation that appears on every page. Sphinx of black quartz, judge my vow.</p>
+      <nav role="navigation">
+        <a href="#">Home</a> |
+        <a href="#">Work</a> |
+        <a href="#">About</a> |
+        <a href="#">Blog</a> |
+        <a href="#">Contact</a>
+      </nav>
+    </footer>
+  </body>
+</html>
