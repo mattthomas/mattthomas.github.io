@@ -3,7 +3,7 @@ title: Air
 email: matt_thomas@fastmail.fm
 description: "An ultra-minimalist Jekyll theme inspired by Information Architects."
 baseurl: "/"
-url: "http://mattthomas.info"
+url: "mattthomas.info"
 
 # Build settings
 markdown: kramdown
