@@ -43,7 +43,7 @@ body { width: 87.5%;
        margin-right: auto;
        padding-left: 12.5%;
        font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-       background-color: #F7BAA1;
+       background-color: #f7baa1;
        color: #111;
        max-width: 1400px;
        counter-reset: sidenote-counter; }
